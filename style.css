@@ -1,7 +1,13 @@
 @charset "utf-8";
 *{
-    font-size: 22px;
+    font-size: 20px;
     color: white;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 23px;
 }
 hr{
     color: #fff;
