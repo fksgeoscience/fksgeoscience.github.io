@@ -1,1 +1,89 @@
-公開までしばらくお待ち下さい
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天文データベースポータル</title>
+    <style>
+        /* 全体のリセットと背景・文字色設定 */
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: #0b0f19; /* 深みのある宇宙の夜空色 */
+            color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* 中央のコンテンツエリア */
+        .container {
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* タイトル */
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            margin-bottom: 2.5rem;
+            color: #e2e8f0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 1rem;
+        }
+
+        /* リストのスタイルリセット */
+        .links-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .links-list li {
+            margin-bottom: 1.2rem;
+        }
+
+        /* リンクボタンのデザイン */
+        .db-link {
+            display: block;
+            padding: 1.2rem 1.5rem;
+            color: #93c5fd; /* 淡い星の青色 */
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+        }
+
+        /* マウスホバー時のエフェクト */
+        .db-link:hover {
+            background-color: rgba(147, 197, 253, 0.08);
+            border-color: #3b82f6; /* 鮮やかな星の青 */
+            color: #ffffff;
+            transform: translateY(-2px); /* 少し浮き上がる */
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15); /* ほのかな光彩 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ASTRONOMY DATABASE</h1>
+        
+        <ul class="links-list">
+            <li><a href="Aqr2026.html" class="db-link">みずがめ座座相 (Aqr 2026)</a></li>
+            <li><a href="Gem2025.html" class="db-link">ふたご座座相 (Gem 2025)</a></li>
+            <li><a href="Leo2025.html" class="db-link">しし座座相 (Leo 2025)</a></li>
+            <li><a href="Lyr2026.html" class="db-link">こと座座相 (Lyr 2026)</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
